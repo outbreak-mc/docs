@@ -66,15 +66,17 @@ markdown_extensions:
           - overrides/icons
 
 nav:
-  - Главная: index.md
+  - Главная: http://localhost:5173/
 
-  # - SKYHIGH EVENT: skyhigh/index.md
+  # - SKYHIGH EVENT: 
+  #   - skyhigh/index.md
 
   - Quality-of-Life сборка:
     - modpack/index.md
+    - Обзор QoL-сборки OUTBREAK: modpack/review.md
+    - Установка сборок: modpack/installation.md
     - Установка Java: modpack/java-installation.md
-    - Установка Сборки: modpack/installation.md
-    - Обзор сборки: modpack/review.md
+    - Проблемы и вопросы: modpack/installation-issues.md
 
   # - 🎄 MODBREAK-2024:
   #   - MODBREAK-2024: modbreak2024/index.md

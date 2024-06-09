@@ -1,10 +1,10 @@
 # Сборка OUTBREAK
 
 <div class="icon-gallery centered">
-  <img alt="Fabric" src="../../assets/modpack/logos/fabric.webp" />
-  <img alt="Quilt" src="../../assets/modpack/logos/quilt.webp" />
-  <img alt="Sodium" src="../../assets/modpack/logos/sodium.webp" />
-  <img alt="Iris" src="../../assets/modpack/logos/iris.webp" />
+  <img alt="Fabric" src="../assets/modpack/logos/fabric.webp" />
+  <img alt="Quilt" src="../assets/modpack/logos/quilt.webp" />
+  <img alt="Sodium" src="../assets/modpack/logos/sodium.webp" />
+  <img alt="Iris" src="../assets/modpack/logos/iris.webp" />
 </div>
 
 Сборка построена на базе Fabric 1.20.1 с Sodium, Iris и Quilt и призвана сделать из клиента что-то более менее играбельное и добавить эстетики.
@@ -65,33 +65,25 @@
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Панорама" src="../../assets/modpack/aesthetics/pano.webp">
+            <img alt="Панорама" src="../assets/modpack/aesthetics/pano.webp">
         </div>
     </label>
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Шалкеры" src="../../assets/modpack/aesthetics/shulkers.webp">
+            <img alt="Шалкеры" src="../assets/modpack/aesthetics/shulkers.webp">
         </div>
     </label>
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Взрывы" src="../../assets/modpack/aesthetics/epic.webp">
+            <img alt="Взрывы" src="../assets/modpack/aesthetics/epic.webp">
         </div>
     </label>
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Инструкция зельеварения" src="../../assets/modpack/gameplay/brewing-guide.webp">
-        </div>
-    </label>
-</div>
-<div class="grid cards">
-    <label class="zoomableimg">
-        <input type="checkbox">
-        <div>
-            <img alt="OwO" src="../../assets/modpack/aesthetics/ghast2-crop.webp">
+            <img alt="Инструкция зельеварения" src="../assets/modpack/gameplay/brewing-guide.webp">
         </div>
     </label>
 </div>
@@ -99,7 +91,15 @@
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Better F3" src="../../assets/modpack/gameplay/f3.webp">
+            <img alt="OwO" src="../assets/modpack/aesthetics/ghast2-crop.webp">
+        </div>
+    </label>
+</div>
+<div class="grid cards">
+    <label class="zoomableimg">
+        <input type="checkbox">
+        <div>
+            <img alt="Better F3" src="../assets/modpack/gameplay/f3.webp">
         </div>
     </label>
     <label class="zoomableimg">
@@ -111,7 +111,7 @@
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Книги" src="../../assets/modpack/gameplay/books-crop.png">
+            <img alt="Книги" src="../assets/modpack/gameplay/books-crop.png">
         </div>
     </label>
     <label class="zoomableimg">
@@ -139,22 +139,22 @@
     - Мод [ItemSwapper](https://www.curseforge.com/minecraft/mc-mods/itemswapper), добавляющий удобные палитры предметов на ++r++, позволяющие мгновенно выбрать предмет, не заходя в инвентарь, а в творческом режиме - взять похожий по тематике предмет из палитры.
     - Мод [Smooth Scrolling Refurbished](https://modrinth.com/mod/smooth-scrolling-refurbished) - плавная прокрутка в списках.
     - Мод [Screenshot Viewer](https://modrinth.com/mod/screenshot-viewer) - добавляет меню просмотра скриншотов.
-    - Мод [Armor Trim Item Fix](https://modrinth.com/mod/armor-trim-item-fix) - 
+    - Мод [Armor Trim Item Fix](https://modrinth.com/mod/armor-trim-item-fix) - улучшенное отображение узоров брони
+    - Мод [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks) - перемещение предметов, удерживая ++shift++ + ЛКМ и водя мышью, и другие удобства в инвентаре.
+    - Мод [Fabrishot](https://modrinth.com/mod/fabrishot) - нажмите ++f9++, чтобы создать скриншот высокого разрешения. Разрешение и задержку можно настраивать.
 
     <div style="opacity: 60%" markdown>
     **Добавлено, но [не активно](review.md#enabling-mods){:target="_blank"} по умолчанию:**
 
-    - Мод [Fabrishot](https://modrinth.com/mod/fabrishot) - создавайте скриншоты любого разрешения
     - Мод [WorldEdit](https://www.curseforge.com/minecraft/mc-mods/worldedit) - главный мод для всех строителей - заполнение блоками, копирование, вставка и множество других функций.
 
     </div>
 
     **Исправления, улучшения, обновления:**
 
-    - Удалён мод [C2ME](https://modrinth.com/mod/c2me-fabric). Всё-таки без него чанки грузятся лучше.
     - Чат немного сдвинут вверх и больше не перекрывается иконками брони на узких мониторах.
     - Исправлен неправильный порядок ресурспаков, из-за которого не работал тёмный фон.
-    - Стало удобнее летать на элитрах: прицел теперь отображается, когда вы держите феерверк.
+    - Обновлены ресурспаки от OUTBREAK.
 
 !!! warning "1.2.0-rc.2 (нестабильная версия)"
 
