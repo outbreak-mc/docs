@@ -2,26 +2,25 @@
 
 <div class="icon-gallery centered">
   <img alt="Fabric" src="../assets/modpack/logos/fabric.webp" />
-  <img alt="Quilt" src="../assets/modpack/logos/quilt.webp" />
   <img alt="Sodium" src="../assets/modpack/logos/sodium.webp" />
   <img alt="Iris" src="../assets/modpack/logos/iris.webp" />
 </div>
 
-Сборка построена на базе Fabric 1.20.1 с Sodium, Iris и Quilt и призвана сделать из клиента что-то более менее играбельное и добавить эстетики.
+Сборка построена на базе Fabric с Sodium и Iris и призвана сделать из клиента что-то более менее играбельное и добавить эстетики.
 
-Папка mods насчитывает более 80 модов и 30+ ресурспаков, но установленные здесь моды не добавляют никаких новых предметов, а только улучшают комфорт от игры, производительность и внешний вид, сохраняя максимально ванильную стилистику. 
+Папка mods насчитывает около 80 модов и 30+ ресурспаков, но установленные здесь моды не добавляют никаких новых предметов, а только улучшают комфорт от игры, производительность и внешний вид, сохраняя максимально ванильную стилистику. 
 
 В сборке присутствуют:
 
-- Такие маст-хэв моды как Emotecraft, Plasmo Voice, Replay Mod.
+- Такие маст-хэв моды как Emotecraft, Zoomify, Replay Mod и Bobby.
 
 - Множество модов на оптимизацию и все фишки из OptiFine. FPS в сборке [до 2 раз выше, чем в ванилле](review.md#fps-ram).
 
-- Моды на исправление недочётов клиента, как например, фикс неработающего без `/op` меню ++f3+f4++.
+- Моды на исправления недочётов клиента, как например, фикс неработающего без `/op` меню ++f3+f4++ и вкладки с экспериментальными предметами.
 
-- Моды на различные удобства - просмотр шалкеров в инвентаре, показ эффектов от еды и другое.
+- Моды на различные удобства, например - просмотр шалкеров в инвентаре, показ насыщения и эффектов от еды и улучшенный чат.
 
-- Эстетические улучшения - анимированная еда, улучшенная погода, круги на воде, плавное перемещение предметов и многое другое.
+- Эстетические улучшения - анимированная еда, погодные эффекты, круги на воде, плавное перемещение предметов и многое другое.
 
 <div class="grid cards align-link-down" markdown>
 
@@ -128,35 +127,30 @@
 
 Скачать иконку: [:outbreak-outbreak: logo.ico](../assets/modpack/download/logo.ico){:download="logo.ico"} 
 
-!!! bug "Сейчас в разработке"
+!!! note "1.3.0 (Minecraft 1.21.3)"
 
-    **Скачать:** Эта версия ещё не вышла. Здесь показаны промежуточные изменения, которые, вероятно, войдут в выпуск. Вы можете предложить свои изменения или попросить на тестирование промежуточную версию в [Discord](https://discord.gg/fhgkRff).
+    **Скачать:** [OUTBREAK QoL 1.3.0 (MC 1.21.3).mrpack](https://drive.google.com/file/d/1DQE-87gdI1tStxSLijZiU6kHm1B9hRWl/view?usp=sharing){:target="_blank"}
+
+    **Внимание!** Эта сборка сделана на базе Minecraft 1.21.3. Возможно вам потребуется установить Java 21. Если ещё не сделали это, можете воспользоваться нашим [гайдом](java-installation.md).
 
     **Изменения:**
 
-    **Новое:**
+    - Сборка обновлена до версии 1.21.3. В связи с этим некоторые моды были утеряны или заменены другими, так как ещё не поддерживают эту версию.
 
-    - Мод [ItemSwapper](https://www.curseforge.com/minecraft/mc-mods/itemswapper), добавляющий удобные палитры предметов на ++r++, позволяющие мгновенно выбрать предмет, не заходя в инвентарь, а в творческом режиме - взять похожий по тематике предмет из палитры.
-    - Мод [Smooth Scrolling Refurbished](https://modrinth.com/mod/smooth-scrolling-refurbished) - плавная прокрутка в списках.
-    - Мод [Screenshot Viewer](https://modrinth.com/mod/screenshot-viewer) - добавляет меню просмотра скриншотов.
-    - Мод [Armor Trim Item Fix](https://modrinth.com/mod/armor-trim-item-fix) - улучшенное отображение узоров брони
-    - Мод [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks) - перемещение предметов, удерживая ++shift++ + ЛКМ и водя мышью, и другие удобства в инвентаре.
-    - Мод [Fabrishot](https://modrinth.com/mod/fabrishot) - нажмите ++f9++, чтобы создать скриншот высокого разрешения. Разрешение и задержку можно настраивать.
+    **Потеряно из-за несовместимости и заменено:**
 
-    <div style="opacity: 60%" markdown>
-    **Добавлено, но [не активно](review.md#enabling-mods){:target="_blank"} по умолчанию:**
-
-    - Мод [WorldEdit](https://www.curseforge.com/minecraft/mc-mods/worldedit) - главный мод для всех строителей - заполнение блоками, копирование, вставка и множество других функций.
-
-    </div>
+    - Не поддерживаются: InvMove, Explosive Enhancement, Standhal, Emotecraft, YDM's Weapon Master, Auth Me, Fancy Menu, Ugly Scoreboard Fix (кажется, он больше и не нужен), Sounds. Также утерян ресурспак на тёмную тему. Возможно вернём.
+    - Мод Command Macros заменён на [Command Keys](https://modrinth.com/mod/commandkeys).
+    - Мод Effective заменён на [Particular](https://modrinth.com/mod/particular).
 
     **Исправления, улучшения, обновления:**
 
-    - Чат немного сдвинут вверх и больше не перекрывается иконками брони на узких мониторах.
-    - Исправлен неправильный порядок ресурспаков, из-за которого не работал тёмный фон.
-    - Обновлены ресурспаки от OUTBREAK.
+    - Все моды обновлены до последних версий.
+    - Обновлены ресурспаки, в том числе от OUTBREAK.
 
-!!! warning "1.2.0-rc.2 (нестабильная версия)"
+#### Старые версии
+
+??? note "1.2.0 (Minecraft 1.20.1)"
 
     **Скачать:** [OUTBREAK 1.2.0-rc.2.mrpack](https://drive.google.com/file/d/1dwY3hg2Bd95TMFzUT57I-Z-qju1-gvgc/view?usp=sharing){:target="_blank"}
 
@@ -205,9 +199,7 @@
         - Звуки шагов стали мягче и приятнее.
         - Над чатом теперь есть выбор эмоджи.
 
-#### Старые версии
-
-??? warning "1.2.0-rc.1 (нестабильная версия)"
+??? warning "1.2.0-rc.1 (нестабильная версия) (Minecraft 1.20.1)"
 
     **Скачать:** [OUTBREAK 1.2.0-rc.1.mrpack](https://drive.google.com/file/d/1sFHmz7BIAlr0YXqJzhp41vpFxhMekDAx/view?usp=sharing){:target="_blank"}
     
@@ -254,7 +246,7 @@
     - Лучше отрегулирована громкость шагов.
     - В настройках BSL погода сделана менее прозрачной.
 
-??? note "Версия 1.1.0" 
+??? note "Версия 1.1.0 (Minecraft 1.20.1)" 
 
     **Скачать:** [OUTBREAK 1.1.0.mrpack](https://drive.google.com/file/d/1IRVC0J24NBtNDHVKknU65fxlYHZhapOx/view?usp=sharing){:target="_blank"}
 
@@ -278,6 +270,6 @@
     - Убран мод Suggestion Tweaker, ломающий подсказки команд.
     - Ваш компьютер больше не взорвётся при запуске сборки. Мы отключили шейдеры по умолчанию.
 
-??? note "Версия 1.0.0" 
+??? note "Версия 1.0.0 (Minecraft 1.20.1)" 
 
     Скачать: [OUTBREAK 1.0.0.mrpack](https://drive.google.com/file/d/1H178GhOcfJsAF2ZDGMz5xyxs00h3u-pr/view?usp=sharing){:target="_blank"}

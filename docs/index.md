@@ -113,8 +113,8 @@
 </div> -->
 
 <div class="grid cards">
-  <a class="img-btn" href="/modpack/">
-    <img class="footer-img" src="../../assets/modpack/aesthetics/particle-rain-snow.webp">
+  <a class="img-btn" href="./modpack/">
+    <img class="footer-img" src="../assets/modpack/aesthetics/particle-rain-snow.webp">
     <h1 class="cool-outbreak-font">Сборка модов OUTBREAK</h1>
     <p>Quality-Of-Life сборка с оптимизациями и визуальными улучшениями</p>
   </a>
