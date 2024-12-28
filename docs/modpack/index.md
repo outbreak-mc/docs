@@ -127,11 +127,15 @@
 
 Скачать иконку: [:outbreak-outbreak: logo.ico](../assets/modpack/download/logo.ico){:download="logo.ico"} 
 
-!!! note "1.3.0 (Minecraft 1.21.3)"
+!!! note "1.3.0-hotfix (Minecraft 1.21.3)"
 
-    **Скачать:** [OUTBREAK QoL 1.3.0 (MC 1.21.3).mrpack](https://drive.google.com/file/d/1DQE-87gdI1tStxSLijZiU6kHm1B9hRWl/view?usp=sharing){:target="_blank"}
+    **Скачать:** [OUTBREAK QoL 1.3.0-hotfix (MC 1.21.3).mrpack](https://drive.google.com/file/d/1BUyjC17K0oVzR2EoQbQAQRT5carQ82cB/view?usp=sharing){:target="_blank"}
 
     **Внимание!** Эта сборка сделана на базе Minecraft 1.21.3. Возможно вам потребуется установить Java 21. Если ещё не сделали это, можете воспользоваться нашим [гайдом](java-installation.md).
+
+    **hotfix:**
+
+    - Вылет из-за дракона исправлен.
 
     **Изменения:**
 
